@@ -12,20 +12,6 @@
 </head>
 <script>
     function setUpProducts() {
-        alert()
-        // var product = document.createElement("div");
-        // product.class
-        // var node = document.createTextNode("This is new.");
-        // para.appendChild(node);
-
-        // var element = document.getElementById("div1");
-        // element.appendChild(para); 
-        var newcontent = '<div id="two">two</div>';
-        $('#dynamicData').append(newcontent);
-
-
-    }
-    function addChild() {
         var childNumber = 1;
         var parent = document.getElementById('dynamicData');
         for(var i =0; i<3; i++){
@@ -35,7 +21,7 @@
     }
 </script>
 
-<body onload="addChild()">
+<body onload="setUpProducts()">
     <div>
         <div id="outlineID">
             <div id="userDetailsID">
