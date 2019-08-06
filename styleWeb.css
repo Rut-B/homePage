@@ -1,0 +1,206 @@
+﻿html{
+	width:100vh;
+    height:100vh;
+}
+body{
+	width:100vh;
+    height:100vh;
+    background-color: white;
+}
+#header { 
+    height:23.3%;
+     background: linear-gradient(158deg, white , white ,rgba(121, 143, 181, 0.71));
+    padding: .4%;
+    margin: 0.1%;
+	
+}
+#logo{
+    padding-left:1%;
+    width:75%;
+     height:100%;
+}
+#nav{
+    margin-left:5%;
+	width:100%;
+}
+#history
+{
+    height: 100%;
+}
+html, body, form, main {
+    height: 100%;
+}
+.link{
+   
+    background-color:white;
+    color:rgb(17, 106, 181);
+     font-family:'Yu Gothic';
+     font-size:100%;
+     font-weight:bold;
+     margin-left:3%;
+     float:left;
+}
+#link1{
+
+    margin-left:1.17%;
+}
+#asideLeft{
+    float:none;
+     margin-left:1.1%;
+     margin-top:0.35%;
+     width:20%;
+     height:100vh;
+     margin-left:1.1%;
+     float:left;
+}
+#main{
+
+     
+     margin-top:0.35%;
+     background-color:white;
+     width:56%;
+     height:107.8%;
+    margin-left:1.1%;
+     float:left;
+}
+#sec1{
+	background: linear-gradient(158deg, white , white ,rgba(121, 143, 181, 0.71));
+    color: rgb(17, 106, 181);
+   width:100%;
+    height:60%;
+}
+#selectList{
+    color: rgb(17, 106, 181);
+   margin:3%;
+     font-weight:bold; 
+      font-family:'Yu Gothic';
+}
+#list{
+    color: rgb(17, 106, 181);
+     font-weight:bold;
+         font-family:'Yu Gothic';
+}
+
+.date{
+    color: rgb(17, 106, 181);
+      margin:2%;
+     font-weight:bold; 
+      font-family:'Yu Gothic';
+      float:left;
+}
+.indate{
+font-weight:bold; 
+      font-family:'Yu Gothic';
+      color:rgb(17, 106, 181);
+}
+#travelers{
+    margin-left:3%;
+    width:50%;
+    margin-top:15%;
+    float:none;
+    font-weight:bold; 
+      font-family:'Yu Gothic';
+      color:rgb(17, 106, 181);
+}
+#txtTrav{
+   float:left;
+     margin-right:3%;
+}
+.partners{
+    margin-left:2%;
+     width:10%;
+}
+#radio{
+     margin-left:3%;
+    width:50%;
+   margin-top:5%;
+    float:none;
+    font-weight:bold; 
+      font-family:'Yu Gothic';
+      color:rgb(17, 106, 181);
+}
+#chbox{
+     margin-left:3%;
+    width:50%;
+   margin-top:2%;
+    float:none;
+    font-weight:bold; 
+      font-family:'Yu Gothic';
+      color:rgb(17, 106, 181);
+}
+#search {
+    margin-left: 25%;
+    width: 20%;
+    height: 10%;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: 'Yu Gothic';
+    color: rgb(17, 106, 181);
+    border-color: rgb(17, 106, 181);
+    background-color: white;
+}
+
+#asideR1{
+ 
+     margin-top:0.35%;
+     width:20%;
+     height:53%;
+     margin-left:1.1%;
+     float:left;
+}
+
+#asideR2{
+	  background: linear-gradient(158deg, white , white ,rgba(121, 143, 181, 0.71));
+	 padding:1.3%;
+     margin-top:1%;
+     font-family:'Yu Gothic';
+     width:18%;
+     height:48.5%;
+     margin-left:1.1%;
+     float:left;
+	 color:rgb(17, 106, 181);
+}
+#footer{
+      margin-bottom:0.5%;
+      margin-top:1.1%;
+	  padding-left:37%;
+	  font-family:'Yu Gothic';
+	  font-size:90%;
+	  color:rgb(17, 106, 181);
+	  font-weight:bold;
+     background-color:rgba(121, 143, 181, 0.44);
+     width:98.8%;
+     height:4.5%;
+     margin-left:1%;
+     float:left;
+}
+#myI{
+	font-size:100%;
+	padding:3%;
+	color:rgb(0, 82, 204);
+    display:inline;
+}
+#sec2{
+	border-color:rgb(153,101,21);
+	border-style:ridge;
+	margin-left:0.1%;
+	margin-top:1.1%;
+	width:99%;
+    height:35%;
+	font-family:Georgia;
+}
+#txtp{
+	width:25%;
+	padding:3%;
+	font-family:Georgia;
+	font-size:160%;
+	color:rgb(153,101,21);
+	float:left;
+}
+#prag{
+margin-left:2%;
+	height:100%;
+	width:67%;
+	float:left;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="homeProject.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <title>Hello</title>
+</head>
+<script>
+    function setUpProducts() {
+        alert()
+        // var product = document.createElement("div");
+        // product.class
+        // var node = document.createTextNode("This is new.");
+        // para.appendChild(node);
+
+        // var element = document.getElementById("div1");
+        // element.appendChild(para); 
+        var newcontent = '<div id="two">two</div>';
+        $('#dynamicData').append(newcontent);
+
+
+    }
+    function addChild() {
+        var childNumber = 1;
+        var parent = document.getElementById('dynamicData');
+        for(var i =0; i<5; i++){
+        var newChild = '<div class="productsID"><div class="productsDataID"><div class="product"><div class="productName">כנף</div><div class="productComment">שם תוצר</div></div><div class="milestone"><div class="milestoneDateDiv">6/8/19</div><div class="milestoneComment">מתווה</div><div class="milestonestatus"><i class="far fa-check-circle"></i></div></div><div class="milestone"><div class="milestoneDateDiv">6/8/19</div><div class="milestoneComment">טיוטה</div><div class="milestonestatus"><i class="far fa-check-circle"></i></div></div><div class="milestone"><div class="milestoneDateDiv">6/8/19</div><div class="milestoneComment">CR</div><div class="milestonestatus"><i class="fas fa-sync-alt"></i></div></div><div class="milestoneEnd"><div class="milestoneDateDiv">6/8/19</div><div class="milestoneComment">ת.ה. סופי</div><div class="milestonestatus"><i class="fas fa-sync-alt"></i></div></div></div ><button class="productBtn"><i class="far" id="editproductBtnID">&#xf044;</i></button></div > ';
+        parent.insertAdjacentHTML('beforeend', newChild);
+        childNumber++;}
+    }
+</script>
+
+<body onload="addChild()">
+    <div>
+        <div id="outlineID">
+            <div id="userDetailsID">
+                <img id="userimgID" src="Picture1.gif">
+                <div id="userDetID">Chemda Garber</div>
+            </div>
+            <button id="projectBtnID" class="outlineBtn">פרויקטים</button>
+            <button id="projectBtnID" class="outlineBtn">היסטוריה</button>
+            <button id="projectBtnID" class="outlineBtn">הגדרות</button>
+            <button id="projectBtnID" class="outlineBtn">דוחות</button>
+        </div>
+        <div id="projectDataID">
+            <div id="projectOutlineID">
+                <div id="projectNameID">ToFlyUp</div>
+                <button class="projecBtn"><i class='far' id="editProjectBtnID">&#xf044;</i></button>
+                <button class="projecBtn"><i class="material-icons" id="addProductBtnID">&#xe03b;</i></button>
+            </div>
+            <div id="dynamicData">
+                <div class="productsID">
+                    <div class="productsDataID">
+                        <div class="product">
+                            <div class="productName">כנף</div>
+                            <div class="productComment">שם תוצר</div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestoneDateDiv">6/8/19</div>
+                            <div class="milestoneComment">מתווה</div>
+                            <div class="milestonestatus"><i class='far fa-check-circle'></i></div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestoneDateDiv">6/8/19</div>
+                            <div class="milestoneComment">טיוטה</div>
+                            <div class="milestonestatus"><i class='far fa-check-circle'></i></div>
+                        </div>
+                        <div class="milestone">
+                            <div class="milestoneDateDiv">6/8/19</div>
+                            <div class="milestoneComment">CR</div>
+                            <div class="milestonestatus"><i class='fas fa-sync-alt'></i></div>
+                        </div>
+                        <div class="milestoneEnd">
+                            <div class="milestoneDateDiv">6/8/19</div>
+                            <div class="milestoneComment">ת.ה. סופי</div>
+                            <div class="milestonestatus"><i class='fas fa-sync-alt'></i></div>
+                        </div>
+                    </div>
+                    <button class="productBtn"><i class='far' id="editproductBtnID">&#xf044;</i></button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
